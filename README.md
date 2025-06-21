@@ -14,21 +14,23 @@ This repository contains Python solutions for image processing tasks:
 ## GitHub Repository Structure:
 
 ```
-EC7212_Assignment2/
 ├── README.md
-├── notebooks/
-│   └── Assignment2.ipynb
-├── images/
-│   └── (put your images here)
+├── ImageSegmentation_Assignment2.ipynb
+├── sample_image/
+│   └── input.jpg
 └── results/
-    └── (outputs auto-saved here)
+    ├── task1_original_image.png
+    ├── task1_noisy_image.png
+    ├── task1_otsu's_thresholding.png
+    ├── task2_original_segmentation.png
+    └── task2_segmented.png
 ```
 
 ---
+
 ---
 
 ## Repository Structure
-- `notebooks/` – Contains the assignment Jupyter notebook.
 - `images/` – Input image files.
 - `results/` – Output images saved here.
 
@@ -44,7 +46,7 @@ pip install numpy opencv-python matplotlib
 ### 2. Run the notebook
 
 ```bash
-jupyter notebook notebooks/Assignment2.ipynb
+jupyter notebook ImageSegmentation_Assignment2.ipynb
 ```
 
 
