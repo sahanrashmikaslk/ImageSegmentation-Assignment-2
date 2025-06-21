@@ -51,16 +51,3 @@ jupyter notebook ImageSegmentation_Assignment2.ipynb
 
 
 
-### 2. Final Result Folder:
-
-```
-results/
-├── task1_original_image.png
-├── task1_noisy_image.png
-├── task1_otsu's_thresholding.png
-├── task2_original_segmentation.png
-└── task2_segmented.png
-```
-
----
-
